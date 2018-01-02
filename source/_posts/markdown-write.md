@@ -2,6 +2,7 @@
 title: markdown常用基本写法
 date: 2017-12-30 09:44:26
 tags:
+  - markdown
 ---
 - 1.**标题**。使用 # ，共六级，类似 html 的 H 标签 (单独+空格)
 ```
