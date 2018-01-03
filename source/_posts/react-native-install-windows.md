@@ -55,6 +55,9 @@ cd AwesomeProject
 react-native run-android
 ```
 - 2.选择真机或者模拟器，使用adb工具
+```
+将android studio安装后的platform-tools添加到path环境变量里
+```
 ##### 三、打包apk
 - 1.生成签名密钥，完成后将my-release-key.keystore文件移动到android/app下
 ```
@@ -96,4 +99,4 @@ gradlew assembleRelease
 - 1.react-navigation导航和tab插件
 
 # &nbsp;
-> *参考文章，[手把手教你建github技术博客](https://www.jianshu.com/p/701b1095da11)*
+> *参考文章，[React Native 中文网](https://reactnative.cn/)*
