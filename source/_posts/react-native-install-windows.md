@@ -1,9 +1,10 @@
 ---
-title: react-native_install_windows
+title: react native在windows环境的安装配置
 date: 2018-01-03 09:26:16
 tags:
   - react-native
   - react native windows环境
+  - react-native android环境
 ---
 ###### 本文主要介绍react native在windows上开发android的环境搭建，前几天第一次搭建成功过，遇到一些坑，时间过了两天，可能有一些遗漏，有问题请自行搜索或在关于页面联系我。早前是使用mac开发iOS的环境，比较顺利很多，晚点会再写一篇使用react native在mac上开发android和iOS的文章。
 ##### 一、安装软件（建议先翻墙，自行搜索，鉴于某些原因，不做介绍）
@@ -47,6 +48,7 @@ choco install jdk8
 ```
 - 9.Android Studio，需要配置环境变量
 - 10.Genymotion，比起Android Studio自带的原装模拟器，Genymotion是一个性能更好的选择，但它只对个人用户免费。
+
 ##### 二、安装运行
 - 1.初始化并运行
 ```
@@ -94,9 +96,5 @@ gradlew assembleRelease
 
 在 android/app/build/outputs/apk/ 下，找到打包生成的 app-release.apk
 ```
-
-##### 四、具体代码开发
-- 1.react-navigation导航和tab插件
-
 # &nbsp;
 > *参考文章，[React Native 中文网](https://reactnative.cn/)*
