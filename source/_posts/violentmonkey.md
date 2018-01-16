@@ -32,13 +32,14 @@ function appendJquery (url, callback){
         script.onreadystatechange = null;
         callback();
       };
-    } else {
-      //Others: Firefox, Safari, Chrome, and Opera
-      script.onload = function () {
-        callback()
-      };
-    };
+    }
   }
+  else {
+    //Others: Firefox, Safari, Chrome, and Opera
+    script.onload = function () {
+      callback()
+    };
+  };
   script.src = url;
   document.body.appendChild(script);
 }
