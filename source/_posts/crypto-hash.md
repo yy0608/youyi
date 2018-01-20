@@ -16,7 +16,8 @@ hash.update('world!')
 
 var res = hash.digest('hex')
 ```
-####### 介绍几个方法
-- 1. createHash, 接收参数md5, sha1, sha256, sha512, ripemd160
-- 2. update, 传入字符串，其实是字符串的相加，例子中结果同hash.update('Hello, world!')
-- 3. digest, 默认二进制，hex为十六进制，会将hash对象清空
+
+###### 介绍几个方法
+- 1.createHash, 接收参数md5, sha1, sha256, sha512, ripemd160
+- 2.update, 传入字符串，其实是字符串的相加，例子中结果同hash.update('Hello, world!')
+- 3.digest, 默认二进制，hex为十六进制，会将hash对象清空
