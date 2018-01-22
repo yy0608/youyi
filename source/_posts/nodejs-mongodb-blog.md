@@ -1,5 +1,5 @@
 ---
-title: nodejs和mongodb搭建博客
+title: nodejs和mongodb搭建博客（博客开发一）
 date: 2018-01-11 17:26:23
 tags:
   - nodejs搭建博客
@@ -209,7 +209,7 @@ router.post('/user/login', function (req, res, next) {
         username: data.username
       }
       console.log(req.cookies)
-      req.cookies.set('userInfo', JSON.stringify(responseData.user_info))
+      req.cookies.set('userInfo', JSON.stringify(responseData.user_info), { httpOnly: false }) // 此处默认为true，浏览器客户端无法获取。获取的时候服务端使用req.cookies.get('userInfo')，客户端使用了vue-cookie（参考文章博客开发三）
       res.json(responseData)
       return
     }
