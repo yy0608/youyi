@@ -26,11 +26,3 @@ created () {
   }
 }
 ```
-###### App.vue文件里，测试后发现，此处代码可以写为如下。vue-cookie作了一些处理，不管userInfoString为什么类型，JSON.parse也不会出错。通过前端判断登录安全性会有问题，安全性问题下次文章讨论
-```
-created () {
-  var userInfoString = this.$cookie.get('userInfo')
-  var userInfoJSON = JSON.parse(userInfoString)
-  this.$store.dispatch('setUserInfo', userInfoJSON)
-}
-```
