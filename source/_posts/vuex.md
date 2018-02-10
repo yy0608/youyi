@@ -82,9 +82,9 @@ computed: mapState([
 ])
 
 // mapState使用二
-computed: mapState([
+computed: mapState({
   'number': state => state.number
-])
+})
 
 
 // mapActions使用一

@@ -157,3 +157,13 @@ export default {
 ```
 ###### 四、列表删除的操作，因为是在同组件（同页面）操作，所以没有去调接口获取列表，列表是在组件creatd钩子里获取的。删除传入index和_id，成功之后通过index修改全局state里的列表
 ###### 五、列表数据的添加和编辑和删除不同，使用了路由跳转新页面，返回会在created钩子里重新获取列表数据。添加和编辑是通过路由的query里是否有_id判断，编辑的话先获取详情，此处就需要获取详情的接口。之前有想过通过index去全局state里列表拿到某条列表数据。这种方法比较麻烦，需要很多flag，而且刷新页面全局state数据会变
+###### 六、修改textarea中的回车换行，在vue的v-html中正常显示
+```
+changeEnter (str) {
+  var resStr = str.replace(/<\s*/g, '&lt;')
+  resStr = resStr.replace(/&lt;\s*/g, '&lt; ')
+  resStr = resStr.replace(/\n/g, '<br>')
+  return resStr
+}
+```
+###### 七、跨域使用cookie的时候，如果仅仅是端口不同，前后端都能拿到cookie，但如果子域名不同，后端设置了cookie，前端不能通过document.cookie拿到

@@ -183,7 +183,7 @@ cp objs/nginx /usr/local/nginx/sbin/
 ```
 yum -y install openssl openssl-devel
 ```
-###### 七、暴力重启nginx命令
+###### 七、暴力重启nginx命令，连接云主机上的mongodb数据库
 ```
 // 查询nginx主进程号
 ps -ef | grep nginx
@@ -193,4 +193,7 @@ pkill -9 nginx
 
 // 检查配置并启动
 sudo /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
+
+// 连接mongodb
+./bin/mongod --dbpath=data/db --fork --logpath=log/mongodb.log
 ```
