@@ -16,15 +16,21 @@ db.createUser(
   }
 )
 ```
-###### 二、关闭数据库，再次打开添加--auth参数，默认不开启权限
+###### 二、关闭数据库
+```
+ps -axu |grep mongo
+
+kill -2 8888
+```
+###### 三、打开添加--auth参数，默认不开启权限
 ```
 mongod --auth
 ```
-###### 三、代码中连接数据库
+###### 四、代码中连接数据库
 ```
 // mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][/[database][?options]]
 
-mongoose.connect('mongodb://youyi:yy0608@localhost:27017/laogao', {
+mongoose.connect('mongodb://username:password@localhost:27017/laogao', {
   useMongoClient: true
 }, function(err) {
   if (err) {
