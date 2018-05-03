@@ -7,6 +7,7 @@ tags:
 # 前端代码规范
 ###### Front-End Coding Guidelines
 - 以下规范是团队基本约定的内容，必须严格遵循 *20180503*
+
 ### CSS规范
 ##### 一、顺序
 ###### - 1.位置属性(position, top, right, z-index, display, float等)
@@ -118,4 +119,4 @@ a { text-decoration: none; color: #333; }
 a:hover { text-decoration: underline; }
 ```
 
-
+More info: [Front-End Coding Guidelines @2017 凹凸实验室](https://guide.aotu.io/index.html)
