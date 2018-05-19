@@ -42,3 +42,12 @@ mongoose.connect('mongodb://username:password@localhost:27017/laogao', {
   console.log(err.message)
 })
 ```
+###### 五、常用命令
+```
+// 连接mongodb
+./bin/mongod --dbpath=data/db --fork --logpath=log/mongodb.log
+
+// 使用js shell连接
+use admin
+db.auth('username', 'password')
+```
