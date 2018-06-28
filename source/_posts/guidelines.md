@@ -86,19 +86,24 @@ tags:
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" >
 <meta name="format-detection" content="telephone=no" >
 ```
-###### - 11.重置样式
+###### - 11.单位rem设置（放置到head标签，不要放到body）
+```
+<script> ! function(a) {var j, b = a.document, c = b.documentElement, d = a.orientation || 0, e = 750, f = 9 / 16, g = 100, h = a.devicePixelRatio, i = 1; b.write('<meta name="viewport" content="initial-scale=' + i + ",maximum-scale=" + i + ",minimum-scale=" + i + ',user-scalable=0">'), j = c.getBoundingClientRect().width, 90 == Math.abs(d) && (j *= f), c.style.fontSize = j / h * g / (e / h) + "px"}(window); </script>
+```
+###### - 12.重置样式
 ```
 /* 移动端 */
-* { -webkit-tap-highlight-color: transparent; outline: 0; margin: 0; padding: 0; vertical-align: baseline; }
-body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0; padding: 0; vertical-align: baseline; }
-img { border: 0 none; vertical-align: top; }
-i, em { font-style: normal; }
-ol, ul { list-style: none; }
-input, select, button, h1, h2, h3, h4, h5, h6 { font-size: 100%; font-family: inherit; }
-table { border-collapse: collapse; border-spacing: 0; }
-a { text-decoration: none; color: #666; }
-body { margin: 0 auto; min-width: 320px; max-width: 640px; height: 100%; font-size: 14px; fon-family: -apple-system,Helvetica,sans-serif; line-height: 1.5; color: #666; -webkit-text-size-adjust: 100% !important; text-size-adjust: 100% !important; }
-input[type="text"], textarea { -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,menu,nav,output,ruby,section,summary,time,mark,audio,video,input{margin:0;padding:0;border:0;font-size:100%;font-weight:normal;vertical-align:baseline;}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block;}
+body{line-height:1;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:none;}
+table{border-collapse:collapse;border-spacing:0;}
 
 /* PC端 */
 html, body, div, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, ul, li, fieldset, form, label, input, legend, table, caption, tbody, tfoot, thead, tr, th, td, textarea, article, aside, audio, canvas, figure, footer, header, mark, menu, nav, section, time, video { margin: 0; padding: 0; }
