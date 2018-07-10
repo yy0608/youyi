@@ -4,14 +4,14 @@ date: 2018-02-06 18:12:57
 tags:
   - nginx配置
 ---
-###### 一、本文介绍使用nginx多个域名配置一个服务器的多个端口，nginx安装自行搜索，[多域名配置](https://segmentfault.com/a/1190000004453295)， [ssl参考文章](https://www.jianshu.com/p/9523d888cf77)
+###### 一、本文介绍使用nginx多个域名配置一个服务器的多个端口，nginx安装自行搜索，本文通过yum安装，不是源码安装[多域名配置](https://segmentfault.com/a/1190000004453295)， [ssl参考文章](https://www.jianshu.com/p/9523d888cf77)
 ###### 二、启动目录和配置目录
 ```
-// 启动目录
-/usr/local/nginx/sbin/nginx
+// 启动目录，which nginx查看位置，nginx启动，service nginx restart重启
+/usr/sbin/nginx
 
 // 主配置文件目录（默认）
-/usr/local/nginx/conf/nginx.conf
+/etc/nginx/nginx.conf
 // 自己添加配置文件
 /root/nginx/jingia.com/*.conf
 ```
