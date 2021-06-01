@@ -182,6 +182,18 @@ target.request()
 2. Vue 自定义事件
 3. Promise
 
-#### 三、9.迭代器模式
+#### 三、9.迭代器模式(ES6 Iterator 迭代器)
+
+1. 有序集合数据类型 Array, Map, Set, String, arguments, NodeList
+2. 迭代器 Symbol.iterator 属性
+3. 可以使用 entries()方法，也可以用 for...of 遍历（不知道长度）
+
+```
+Array.prototype[Symbol.iterator]() // Array Iterator {}
+Array.prototype[Symbol.iterator]().next() // {value: undefined, done: true}
+```
 
 #### 三、10.状态模式
+
+1. 有限状态机制（收藏/取消）
+2. Promise
