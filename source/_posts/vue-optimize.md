@@ -1,6 +1,5 @@
 ---
 title: vue多页面优化之seo和路由懒加载
-date: 2018-01-03 16:01:41
 tags:
   - vue
   - 路由懒加载
@@ -8,6 +7,8 @@ tags:
   - code spliting
   - webpack代码分割
   - prerender-spa-plugin
+abbrlink: 27838
+date: 2018-01-03 16:01:41
 ---
 ###### 本文介绍vue使用上的一些优化，seo优化主要两个方面，一个是代码预渲染，另一个是后端渲染。然后是vue-router路由的懒加载（lazy-load），其中会配合webpack2的代码分割（code spliting），更多内容请自行查找，每一个点都可以深入。
 ##### 一、seo优化之代码预渲染，使用prerender-spa-plugin插件

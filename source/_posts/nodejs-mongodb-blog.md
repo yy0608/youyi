@@ -1,8 +1,9 @@
 ---
 title: nodejs和mongodb搭建博客（博客开发一）
-date: 2018-01-11 17:26:23
 tags:
   - nodejs搭建博客
+abbrlink: 16743
+date: 2018-01-11 17:26:23
 ---
 ##### 本文主要介绍服务端的相关开发，客户端使用vue开发web、react-native开发app、小程序等，本文不做客户端的开发介绍
 - 1.目录结构

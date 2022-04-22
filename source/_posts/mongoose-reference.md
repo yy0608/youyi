@@ -1,8 +1,9 @@
 ---
 title: mongoose关联查询
-date: 2018-02-05 16:17:55
 tags:
   - mongoose关联查询
+abbrlink: 48025
+date: 2018-02-05 16:17:55
 ---
 ##### 博客开发中帖子和分类的关联查询，经验记录
 ###### 一、初始化两个schema和model

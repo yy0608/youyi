@@ -1,8 +1,9 @@
 ---
 title: guidelines
-date: 2018-05-03 12:03:56
 tags:
   - 前端代码规范
+abbrlink: 31364
+date: 2018-05-03 12:03:56
 ---
 # 前端代码规范
 ###### Front-End Coding Guidelines

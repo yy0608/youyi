@@ -1,8 +1,9 @@
 ---
 title: 将图片转化为base64并上传
-date: 2018-03-02 15:27:11
 tags:
   - base64
+abbrlink: 29966
+date: 2018-03-02 15:27:11
 ---
 #### 通过file接口和canvas将图片转为base64，也可以通过blob格式上传
 ```

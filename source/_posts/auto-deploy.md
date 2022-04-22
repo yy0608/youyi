@@ -1,8 +1,9 @@
 ---
 title: vue自动化上传七牛和云主机
-date: 2018-05-10 11:57:28
 tags:
   - vue部署
+abbrlink: 5830
+date: 2018-05-10 11:57:28
 ---
 ### 一、上传七牛，使用better-qiniu-webpack-plugin，测试过几个中最好用的
 ```

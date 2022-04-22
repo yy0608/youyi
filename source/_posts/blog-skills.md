@@ -1,8 +1,9 @@
 ---
 title: node和vue博客开发中的技巧经验小结（博客开发五）
-date: 2018-02-03 14:38:46
 tags:
   - node博客开发技巧
+abbrlink: 50372
+date: 2018-02-03 14:38:46
 ---
 ###### 一、在router/index.js里获取全局的store和state，在页码组件相关路由跳转修改路由的query，便于刷新和复制链接
 ```

@@ -1,9 +1,10 @@
 ---
 title: github技术博客hexo使用
-date: 2017-12-25 16:04:15
 tags:
   - 技术博客
   - hexo
+abbrlink: 54836
+date: 2017-12-25 16:04:15
 ---
 - 1.环境准备，[Git](http://gitforwindows.org/), [node.js](https://nodejs.org/en/), hexo(npm install hexo-cli -g)
 ```

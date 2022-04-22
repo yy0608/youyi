@@ -1,8 +1,9 @@
 ---
 title: 七牛FormData上传和小程序上传
-date: 2018-02-27 17:42:37
 tags:
   - 七牛上传
+abbrlink: 53936
+date: 2018-02-27 17:42:37
 ---
 ###### 一、nodejs服务端生成token凭证
 - 1.引用qiniu.js

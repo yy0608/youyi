@@ -1,8 +1,9 @@
 ---
 title: 通过CORS解决跨域cookies（博客开发二）
-date: 2018-01-20 15:44:47
 tags:
   - 跨域cookies
+abbrlink: 31259
+date: 2018-01-20 15:44:47
 ---
 ###### 开发博客项目时，服务端和web客户端使用不同服务器，跨域设置cookie出现了问题。cookie是不能直接跨域设置的，这是浏览器的同源策略导致的。这里使用CORS跨域解决
 - 1.服务器设置Access-Control-Allow-Origin为指定域，不能设置为*

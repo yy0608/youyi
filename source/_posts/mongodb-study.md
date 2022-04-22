@@ -1,8 +1,9 @@
 ---
 title: mongodb学习
-date: 2018-01-04 17:26:37
 tags:
   - mongodb
+abbrlink: 41337
+date: 2018-01-04 17:26:37
 ---
 - 1.安装。使用chocolatey安装，-y是默认提示自动确认
 ```

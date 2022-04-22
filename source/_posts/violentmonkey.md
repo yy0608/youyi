@@ -1,9 +1,10 @@
 ---
 title: violentmonkey暴力猴的使用
-date: 2018-01-02 16:58:42
 tags:
   - violentmonkey
   - 暴力猴
+abbrlink: 23304
+date: 2018-01-02 16:58:42
 ---
 ###### 暴力猴violentmonkey是一个可以在浏览器插入js脚本的chrome插件，能插入脚本能做的其他事情就不用多说了。本文主要讲自己写脚本，如果下载其他百度云下载或者屏蔽视频广告的脚本可以自行搜索。
 - 1.下载。chrome网上商店[下载](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?hl=zh-CN)

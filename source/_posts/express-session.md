@@ -1,8 +1,9 @@
 ---
 title: nodejs中管理使用express-session和redis进行会话管理
-date: 2018-03-08 16:01:07
 tags:
   - session
+abbrlink: 31231
+date: 2018-03-08 16:01:07
 ---
 ### 这个模块已经做了很多包含cookie和redis的处理，使用起来特别简单，但需要理解其中的过程。secret这个
 ###### 一、用到的模块express-session, connect-redis[, node_redis]，其中node_redis是可选

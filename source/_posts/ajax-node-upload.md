@@ -1,8 +1,9 @@
 ---
 title: 文件ajax异步上传node服务器
-date: 2018-01-09 14:47:56
 tags:
   - ajax文件上传
+abbrlink: 16270
+date: 2018-01-09 14:47:56
 ---
 ###### ajax上传文件，本文以图片为例，node作为处理服务器
 ###### html文件，XMLHttpRequest 2

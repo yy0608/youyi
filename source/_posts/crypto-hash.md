@@ -1,10 +1,11 @@
 ---
 title: crypto模块介绍
-date: 2018-01-18 11:01:20
 tags:
   - crypto
   - hash
   - md5
+abbrlink: 28399
+date: 2018-01-18 11:01:20
 ---
 ###### crypto现在是node自带模块，不需要单独安装了。使用方式是
 ```

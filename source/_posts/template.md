@@ -1,8 +1,9 @@
 ---
 title: script标签text/template的使用
-date: 2018-06-28 15:19:08
 tags:
   - template
+abbrlink: 63409
+date: 2018-06-28 15:19:08
 ---
 ## 点餐项目中前后端没分离，后端使用thinkPHP，前端实在不想使用jQuery，仍然使用了vue库，项目不太适合webpack和es6的文件模块引用，可以在页面内使用script的text/template模板，后面可以借助thinkPHP加入文件变量引入
 

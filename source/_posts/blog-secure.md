@@ -1,8 +1,9 @@
 ---
 title: 博客开发中的安全在本项目的实践（博客开发四）
-date: 2018-01-22 14:59:06
 tags:
   - cookie安全
+abbrlink: 26789
+date: 2018-01-22 14:59:06
 ---
 ###### 一、cookie安全。本文主要介绍在服务端通过cookies模块进行cookie签名，从而增加安全性。因为本项目是前后端分离，需要在浏览器客户端拿到cookie进行判断，所以在服务端设置了httpOnly为false，这样客户端就能修改cookie提交服务器，安全性很低。一些服务端中间件都有签名操作，如express的cookies方法和cookies模块，操作如下（也有session_id的中间件，比这个可能会更好一些）
 ```
